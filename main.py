@@ -4,7 +4,7 @@ import PIL
 class weatherapp(tk.Tk):
      def __init__(self,title):
          super().__init__()
-         self.API_KEY="use your key " #get it under openweathermap.org
+         self.API_KEY="52f7c1f4c29fa672b360b6c0336bd05f"
          self.header="https://pro.openweathermap.org/data/2.5/forecast" ##endpoint
          self.geometry("600x700")
          self.title(f"{title}")
